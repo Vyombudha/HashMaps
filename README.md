@@ -51,13 +51,13 @@ Output:
 Index: <hash>, Pairs: name: Vyom Budha, age: 17
 Key 'name': Vyom Budha
 
-Error Handling
+Error Handling:
 
 Checks memory allocation for map, table, and nodes.
 Validates string lengths (<256 characters) to prevent overflows.
 Reports missing keys or empty lists with messages.
 
-Project Structure
+Project Structure:
 
 hash_map.h, hash_map.c: HashMap implementation.
 list.h, list.c: Linked list for chaining.
