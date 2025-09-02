@@ -194,7 +194,7 @@ Node_return new_node(void *key, void *value, Data_type type_of_key, Data_type ty
 
     memcpy(node->key, key, GET_SIZE_OF[type_of_key]);
     memcpy(node->value, value, GET_SIZE_OF[type_of_value]);
-
+    node->next = NULL;
     res.returning_node = node;
     res.code = OK;
 
